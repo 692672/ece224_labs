@@ -268,7 +268,6 @@ int main()
 {
 	Setup();
 
-
 	IOWR(BUTTON_PIO_BASE, 2, 0xf);
 	IOWR(BUTTON_PIO_BASE, 3, 0x0);
 	alt_irq_register(BUTTON_PIO_IRQ, (void*)0, button_ISR);
