@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,view,com.altera.sbtgui.launch,10.1.1.153,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1433712616414
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1433712731384
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433712738773
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433712741059
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433712772843
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433712822125
+error,log,,,"SOPC design not set.",1433712822152
+error,log,,,"CPU module not set.",1433712822157
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1433712822163
+error,log,,,"CPU architecture type not set. ",1433712822168
+error,log,,,"CPU master group not set.",1433712822174
+error,log,,,"SOPC design not set.",1433712822180
+error,log,,,"CPU module not set.",1433712822185
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1433712822190
+error,log,,,"CPU architecture type not set. ",1433712822196
+error,log,,,"CPU master group not set.",1433712822201
+error,log,,,"Expected base address of system ID component is undefined.",1433712822207
+error,log,,,"SOPC design not set.",1433712822212
+error,log,,,"CPU module not set.",1433712822218
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1433712822223
+error,log,,,"CPU architecture type not set. ",1433712822228
+error,log,,,"CPU master group not set.",1433712822234
+error,log,,,"Expected base address of system ID component is undefined.",1433712822239
+error,log,,,"SOPC design not set.",1433712822245
+error,log,,,"CPU module not set.",1433712822250

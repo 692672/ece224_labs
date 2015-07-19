@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1433808903719
+java.version,sysinfo,,,"1.6.0_14",1433808903719
+java.vm.info,sysinfo,,,"mixed mode",1433808903719
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1433808903719
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1433808903719
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1433808903719
+java.vm.specification.version,sysinfo,,,"1.0",1433808903719
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1433808903719
+java.vm.version,sysinfo,,,"14.0-b16",1433808903719
+started,bundle,com.altera.utilities,10.1.0.153,"com.altera.utilities",1433808903734
+started,bundle,com.altera.sbtgui.core,10.1.0.153,"com.altera.sbtgui.core",1433808903750
+started,bundle,com.altera.sbtgui.launch,10.1.1.153,"com.altera.sbtgui.launch",1433808904218
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1433808911316
+started,bundle,org.eclipse.compare,3.5.0.I20090514-0808,"org.eclipse.compare",1433808911534
+opened,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1433808912985
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433808913001
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433808913469
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433808932797
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433808933998
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433808934591
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433808934716
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433808938975
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433808948226
+started,bundle,org.eclipse.debug.ui,3.5.1.v20090811_r351,"org.eclipse.debug.ui",1433808973580
+started,bundle,org.eclipse.cdt.debug.core,6.0.0.200909110608,"org.eclipse.cdt.debug.core",1433808973626

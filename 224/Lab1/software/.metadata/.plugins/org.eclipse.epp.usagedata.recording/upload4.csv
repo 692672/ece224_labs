@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1433711545509
+java.version,sysinfo,,,"1.6.0_14",1433711545509
+java.vm.info,sysinfo,,,"mixed mode",1433711545509
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1433711545509
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1433711545509
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1433711545509
+java.vm.specification.version,sysinfo,,,"1.0",1433711545509
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1433711545509
+java.vm.version,sysinfo,,,"14.0-b16",1433711545509
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1433711545959
+started,bundle,org.eclipse.ltk.ui.refactoring,3.4.100.v20090604,"org.eclipse.ltk.ui.refactoring",1433711547449
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433711547509
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433711552169
+executed,command,org.eclipse.ltk.ui.refactoring,3.4.100.v20090604,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1433711552179
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.delete",1433711552179
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433711552909
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433711557870
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433711558000
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433711558909
+closed,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433711558939
+error,log,,,"The proxied handler for 'com.altera.sbtgui.project.commands.SystemConsoleHandler' could not be loaded",1433711559099
+error,log,,,"The proxied handler for 'com.altera.sbtgui.project.commands.SystemConsoleHandler' could not be loaded",1433711559109
+stopped,bundle,org.eclipse.cdt.debug.mi.ui,6.0.0.200909110608,"org.eclipse.cdt.debug.mi.ui",1433711559129
+stopped,bundle,com.altera.debug.cdi.gdb.plugin,10.1.0.153,"com.altera.debug.cdi.gdb.plugin",1433711559129
+stopped,bundle,com.altera.sbtgui.launch,10.1.1.153,"com.altera.sbtgui.launch",1433711559139

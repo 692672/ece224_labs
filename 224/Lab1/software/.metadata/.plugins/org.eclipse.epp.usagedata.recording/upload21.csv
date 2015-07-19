@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"CPU module not set.",1433712100437
+error,log,,,"CPU master group not set.",1433712100447
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1433712100447
+error,log,,,"CPU architecture type not set. ",1433712100457
+error,log,,,"CPU master group not set.",1433712100467
+error,log,,,"SOPC design not set.",1433712100527
+error,log,,,"CPU module not set.",1433712100537
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1433712100537
+error,log,,,"CPU architecture type not set. ",1433712100547
+error,log,,,"CPU master group not set.",1433712100547
+executed,command,,,"com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchShortcut.run",1433712100597
+started,bundle,org.eclipse.cdt.launch,6.0.0.200909110608,"org.eclipse.cdt.launch",1433712100607
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433712159382
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433712160492
+error,log,,,"SOPC design not set.",1433712160542
+error,log,,,"CPU module not set.",1433712160542
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1433712160562
+error,log,,,"CPU architecture type not set. ",1433712160572
+error,log,,,"CPU master group not set.",1433712160592
+error,log,,,"SOPC design not set.",1433712160662
+error,log,,,"CPU module not set.",1433712160672
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1433712160672
+error,log,,,"CPU architecture type not set. ",1433712160682
+error,log,,,"CPU master group not set.",1433712160692
+opened,view,com.altera.sbtgui.launch,10.1.1.153,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1433712161994

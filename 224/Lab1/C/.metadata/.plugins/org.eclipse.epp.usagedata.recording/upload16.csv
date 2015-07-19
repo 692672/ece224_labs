@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"SOPC design not set.",1431437575491
+error,log,,,"CPU module not set.",1431437575491
+error,log,,,"CPU master group not set.",1431437575503
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1431437575533
+error,log,,,"CPU architecture type not set. ",1431437575553
+error,log,,,"CPU master group not set.",1431437575553
+error,log,,,"SOPC design not set.",1431437575574
+error,log,,,"CPU module not set.",1431437575578
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1431437575585
+error,log,,,"CPU architecture type not set. ",1431437575620
+error,log,,,"CPU master group not set.",1431437575620
+error,log,,,"SOPC design not set.",1431437575641
+error,log,,,"CPU module not set.",1431437575647
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1431437575653
+error,log,,,"CPU architecture type not set. ",1431437575660
+error,log,,,"CPU master group not set.",1431437575668
+error,log,,,"SOPC design not set.",1431437575694
+error,log,,,"CPU module not set.",1431437575714
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1431437575715
+error,log,,,"CPU architecture type not set. ",1431437575721
+error,log,,,"CPU master group not set.",1431437575744
+error,log,,,"Target is broken and needs to be reset",1431437576417
+error,log,,,"SOPC design not set.",1431437576473
+error,log,,,"CPU module not set.",1431437576483
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1431437576483

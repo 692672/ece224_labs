@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"CPU module not set.",1433712824195
+error,log,,,"CPU architecture type not set. ",1433712824204
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1433712824212
+error,log,,,"CPU master group not set.",1433712824220
+error,log,,,"CPU architecture type not set. ",1433712824228
+error,log,,,"CPU master group not set.",1433712824237
+executed,command,,,"com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchShortcut.run",1433712824250
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433712872638
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433712880498
+opened,view,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.views.ProblemView",1433712883152
+activated,view,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.views.ProblemView",1433712883167
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1433712887025
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433712889085
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433712890082
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433712890675
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433712893075
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433712896945
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433712944260
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433712944269
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433712949276
+executed,command,,,"com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchShortcut.run",1433712949280
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433712952736
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433712953634
+executed,command,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.project.buildProject",1433712955803
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433712956085
