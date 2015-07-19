@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="wrap"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="false" key="wholeword"/>
+		<item value="LCD_File_Buffering" key="selection"/>
+		<list key="findhistory">
+			<item value="lcd_file_buffering"/>
+			<item value="play_song"/>
+			<item value="edge_flag"/>
+			<item value="buffering"/>
+			<item value="display_LCD_mode"/>
+			<item value="switch_state"/>
+			<item value="Find Audio CODEC on I2C Bus, Address = 0x34."/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+</section>

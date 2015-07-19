@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1437189475617
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1437189492639
+executed,command,,,"com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchShortcut.run",1437189494297
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1437189511321
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1437189512556
+error,log,,,"SOPC design not set.",1437189512587
+error,log,,,"CPU module not set.",1437189512587
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1437189512603
+error,log,,,"CPU architecture type not set. ",1437189512603
+error,log,,,"CPU master group not set.",1437189512603
+error,log,,,"SOPC design not set.",1437189512712
+error,log,,,"CPU module not set.",1437189512712
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1437189512728
+error,log,,,"CPU architecture type not set. ",1437189512728
+error,log,,,"CPU master group not set.",1437189512728
+activated,view,com.altera.sbtgui.launch,10.1.1.153,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1437189512806
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1437189515662
+activated,view,com.altera.sbtgui.launch,10.1.1.153,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1437189521629
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1437189601584
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1437189628356
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1437189632981
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1437189665714
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1437189665718
+opened,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1437189666009
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1437189666071

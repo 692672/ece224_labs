@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1437178727709
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1437178730674
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1437178748648
+executed,command,,,"com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchShortcut.run",1437178750067
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1437178767469
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1437178768592
+error,log,,,"SOPC design not set.",1437178768639
+error,log,,,"CPU module not set.",1437178768639
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1437178768655
+error,log,,,"CPU architecture type not set. ",1437178768655
+error,log,,,"CPU master group not set.",1437178768655
+error,log,,,"SOPC design not set.",1437178768748
+error,log,,,"CPU module not set.",1437178768748
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1437178768764
+error,log,,,"CPU architecture type not set. ",1437178768764
+error,log,,,"CPU master group not set.",1437178768764
+activated,view,com.altera.sbtgui.launch,10.1.1.153,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1437178768842
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1437178771653
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1437178773275
+activated,view,com.altera.sbtgui.launch,10.1.1.153,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1437178777249
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1437178821152
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1437178821228
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1437178825291
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1437178844514
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1437178850302

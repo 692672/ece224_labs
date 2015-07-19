@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1437191812374
+java.version,sysinfo,,,"1.6.0_14",1437191812374
+java.vm.info,sysinfo,,,"mixed mode",1437191812374
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1437191812374
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1437191812374
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1437191812374
+java.vm.specification.version,sysinfo,,,"1.0",1437191812374
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1437191812374
+java.vm.version,sysinfo,,,"14.0-b16",1437191812374
+started,bundle,com.altera.sbtgui.integration,10.1.0.153,"com.altera.sbtgui.integration",1437191812421
+started,bundle,com.altera.systemconsole,10.1.0.153,"com.altera.systemconsole",1437191812561
+started,bundle,org.eclipse.mylyn.monitor.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.monitor.ui",1437191812671
+started,bundle,com.altera.utilities,10.1.0.153,"com.altera.utilities",1437191812835
+started,bundle,com.altera.sbtgui.launch,10.1.1.153,"com.altera.sbtgui.launch",1437191813104
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1437191818331
+started,bundle,org.eclipse.compare,3.5.0.I20090514-0808,"org.eclipse.compare",1437191818721
+opened,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1437191821993
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1437191822055
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1437191838720
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1437191839285
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1437191847136
+executed,command,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.project.buildProject",1437191851963
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1437191852244
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1437191933244
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1437191987162

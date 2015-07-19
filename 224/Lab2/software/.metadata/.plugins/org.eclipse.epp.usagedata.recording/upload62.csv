@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1437188733666
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1437188740268
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1437188743147
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1437188746101
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1437188754878
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1437188756414
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1437188756430
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1437188788074
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1437188806645
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1437188807799
+error,log,,,"SOPC design not set.",1437188807830
+error,log,,,"CPU module not set.",1437188807830
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1437188807846
+error,log,,,"CPU architecture type not set. ",1437188807846
+error,log,,,"CPU master group not set.",1437188807846
+error,log,,,"SOPC design not set.",1437188807955
+error,log,,,"CPU module not set.",1437188807955
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1437188807971
+error,log,,,"CPU architecture type not set. ",1437188807971
+error,log,,,"CPU master group not set.",1437188807971
+activated,view,com.altera.sbtgui.launch,10.1.1.153,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1437188808064
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1437188811016
+activated,view,com.altera.sbtgui.launch,10.1.1.153,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1437188816775
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1437188825336
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1437188838559

@@ -1,0 +1,22 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,com.altera.sbtgui.integration,10.1.0.153,"com.altera.sbtgui.integration",1433880600507
+started,bundle,org.eclipse.team.ui,3.5.0.I20090430-0408,"org.eclipse.team.ui",1433880600577
+started,bundle,com.altera.systemconsole,10.1.0.153,"com.altera.systemconsole",1433880600587
+started,bundle,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console",1433880600707
+started,bundle,org.eclipse.team.cvs.ui,3.3.201.R35x_v20090826-0905,"org.eclipse.team.cvs.ui",1433880600897
+started,bundle,com.altera.utilities,10.1.0.153,"com.altera.utilities",1433880601285
+started,bundle,com.altera.sbtgui.launch,10.1.1.153,"com.altera.sbtgui.launch",1433880601855
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433880613055
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433880633371
+executed,command,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.edit.text.openLocalFile",1433880633391
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433880637889
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433880638939
+closed,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433880639049
+started,bundle,com.altera.sbtgui.core,10.1.0.153,"com.altera.sbtgui.core",1433880639406
+error,log,,,"The proxied handler for 'com.altera.sbtgui.project.commands.SystemConsoleHandler' could not be loaded",1433880639436
+error,log,,,"The proxied handler for 'com.altera.sbtgui.project.commands.SystemConsoleHandler' could not be loaded",1433880639456
+stopped,bundle,org.eclipse.cdt.debug.mi.ui,6.0.0.200909110608,"org.eclipse.cdt.debug.mi.ui",1433880639656
+stopped,bundle,com.altera.debug.cdi.gdb.plugin,10.1.0.153,"com.altera.debug.cdi.gdb.plugin",1433880639676
+stopped,bundle,com.altera.sbtgui.launch,10.1.1.153,"com.altera.sbtgui.launch",1433880639676
+stopped,bundle,org.eclipse.cdt.debug.mi.core,6.0.0.200909110608,"org.eclipse.cdt.debug.mi.core",1433880639746
+stopped,bundle,org.eclipse.cdt.dsf.gdb.ui,2.0.0.200909110608,"org.eclipse.cdt.dsf.gdb.ui",1433880639746

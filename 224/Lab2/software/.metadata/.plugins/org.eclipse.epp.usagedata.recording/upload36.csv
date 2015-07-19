@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Connected system ID hash not found on target at expected base address.",1437176487073
+error,log,,,"Connected system timestamp not found on target at expected base address.",1437176487073
+error,log,,,"Connected system ID hash not found on target at expected base address.",1437176487182
+error,log,,,"Connected system timestamp not found on target at expected base address.",1437176487182
+error,log,,,"Connected system ID hash not found on target at expected base address.",1437176487291
+error,log,,,"Connected system timestamp not found on target at expected base address.",1437176487291
+error,log,,,"Connected system ID hash not found on target at expected base address.",1437176487400
+error,log,,,"Connected system timestamp not found on target at expected base address.",1437176487400
+error,log,,,"Connected system ID hash not found on target at expected base address.",1437176487509
+error,log,,,"Connected system timestamp not found on target at expected base address.",1437176487509
+error,log,,,"Connected system ID hash not found on target at expected base address.",1437176487525
+error,log,,,"Connected system timestamp not found on target at expected base address.",1437176487525
+error,log,,,"SOPC design not set.",1437176487603
+error,log,,,"CPU module not set.",1437176487603
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1437176487619
+error,log,,,"CPU architecture type not set. ",1437176487619
+error,log,,,"CPU master group not set.",1437176487619
+error,log,,,"Connected system ID hash not found on target at expected base address.",1437176487634
+error,log,,,"Connected system timestamp not found on target at expected base address.",1437176487634
+error,log,,,"SOPC design not set.",1437176487634
+error,log,,,"CPU module not set.",1437176487650
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1437176487650
+error,log,,,"CPU architecture type not set. ",1437176487650
+error,log,,,"CPU master group not set.",1437176487665
+error,log,,,"Expected base address of system ID component is undefined.",1437176487665

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1437173097092
+error,log,,,"CPU architecture type not set. ",1437173097092
+error,log,,,"CPU master group not set.",1437173097092
+activated,view,com.altera.sbtgui.launch,10.1.1.153,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1437173097185
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1437173099985
+executed,command,,,"AUTOGEN:::org.eclipse.ui.texteditor.ruler.actions/org.eclipse.cdt.internal.ui.text.correction.CSelectRulerAction",1437173102250
+started,bundle,com.altera.debug.cdi.gdb.plugin,10.1.0.153,"com.altera.debug.cdi.gdb.plugin",1437173103499
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1437173107692
+opened,view,org.eclipse.debug.ui,3.5.1.v20090811_r351,"org.eclipse.debug.ui.DebugView",1437173108195
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1437173111817
+executed,command,org.eclipse.debug.ui,3.5.1.v20090811_r351,"org.eclipse.debug.ui.commands.StepInto",1437173116555
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1437173117132
+opened,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1437173117202
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1437173117257
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1437173119740
+executed,command,org.eclipse.debug.ui,3.5.1.v20090811_r351,"org.eclipse.debug.ui.commands.StepInto",1437173120199
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1437173120908
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1437173122086
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1437173123531
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1437173127212
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1437173134434
+activated,editor,org.eclipse.cdt.ui,5.1.1.200909110608,"org.eclipse.cdt.ui.editor.CEditor",1437173134512
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1437173138459
+executed,command,org.eclipse.debug.ui,3.5.1.v20090811_r351,"org.eclipse.debug.ui.commands.RunToLine",1437173152252
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1437173159027
