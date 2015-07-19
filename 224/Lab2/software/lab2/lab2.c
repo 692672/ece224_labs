@@ -11,26 +11,28 @@
 #include "wm8731.h"
 #include "basic_io.h"
 
+#define BUF_SIZE 512
+
 volatile static alt_u8 switch_state = 0x0;
 volatile static data_file df;
-volatile static int play_flag = 0;
+volatile static int isPlaying = 0;
 volatile static int edge_flag = 0;
 
 int normal_play(data_file df, int length, int* cc)
 {
 	int i, j;
-	BYTE buffer[512] = {0};
-	UINT16 tmp;
+	BYTE buffer[BUF_SIZE] = {0};
+
 	for (i = 0; i < length * BPB_SecPerClus; i++)
 	{
-		if (play_flag == 0)
+		if (isPlaying == 0){
 			i = length * BPB_SecPerClus;
+		}
 		get_rel_sector(&df, buffer, cc, i);
-		for (j = 0; j < 512; j+=2)
-		{
+
+		for (j = 0; j < BUF_SIZE; j+=2){
 			while(IORD(AUD_FULL_BASE, 0)){}
-			tmp = ( buffer[j + 1] << 8 ) | ( buffer[j] );
-			IOWR(AUDIO_0_BASE, 0 ,tmp);
+			IOWR(AUDIO_0_BASE, 0 ,(UINT16)(buffer[j + 1] << 8 ) | ( buffer[j]));
 		}
 	}
 }
@@ -38,20 +40,21 @@ int normal_play(data_file df, int length, int* cc)
 int double_play(data_file df, int length, int* cc)
 {
 	int i, j, skip = 0;
-	BYTE buffer[512] = {0};
-	UINT16 tmp;
+	BYTE buffer[BUF_SIZE] = {0};
+
 	for (i = 0; i < length * BPB_SecPerClus; i++)
 	{
-		if (play_flag == 0)
+		if (isPlaying == 0){
 			i = length * BPB_SecPerClus;
+		}
 		get_rel_sector(&df, buffer, cc, i);
-		for (j = 0; j < 512; j+=2)
+
+		for (j = 0; j < BUF_SIZE; j+=2)
 		{
 			skip++;
 
 			while(IORD(AUD_FULL_BASE, 0)){}
-			tmp = ( buffer[j + 1] << 8 ) | ( buffer[j] );
-			IOWR(AUDIO_0_BASE, 0 ,tmp);
+			IOWR(AUDIO_0_BASE, 0 ,(UINT16)(buffer[j + 1] << 8) | (buffer[j]));
 
 			if (skip == 2)
 			{
@@ -65,28 +68,26 @@ int double_play(data_file df, int length, int* cc)
 int half_play(data_file df, int length, int* cc)
 {
 	int i, j, repeat = 0;
-	BYTE buffer[512] = {0};
-	UINT16 tmp;
-
+	BYTE buffer[BUF_SIZE] = {0};
 	for (i = 0; i < length * BPB_SecPerClus; i++)
 	{
-		if (play_flag == 0)
+		if (isPlaying == 0){
 			i = length * BPB_SecPerClus;
+		}
 		get_rel_sector(&df, buffer, cc, i);
-		for (j = 0; j < 512; j+=2)
+
+		for (j = 0; j < BUF_SIZE; j+=2)
 		{
 			while(IORD(AUD_FULL_BASE, 0)){}
-			tmp = ( buffer[j + 1] << 8 ) | ( buffer[j] );
-			IOWR(AUDIO_0_BASE, 0 ,tmp);
+			IOWR(AUDIO_0_BASE, 0 ,(UINT16)( buffer[j + 1] << 8 ) | ( buffer[j] ));
 			if (((j + 2) % 4) == 0)
 			{
-				if (repeat == 0)
-				{
+				if (repeat == 0){
 					j -= 4;
 					repeat = 1;
-				}
-				else
+				}else{
 					repeat = 0;
+				}
 			}
 		}
 	}
@@ -95,22 +96,25 @@ int half_play(data_file df, int length, int* cc)
 int reverse_play(data_file df, int length, int* cc)
 {
 	int i, j;
-	BYTE buffer[512] = {0};
-	UINT16 tmp;
+	BYTE buffer[BUF_SIZE] = {0};
+
 	for (i = length * BPB_SecPerClus; i > 0; i--)
 	{
-		if (play_flag == 0)
+		if (isPlaying == 0){
 			i = -1;
+		}
 		get_rel_sector(&df, buffer, cc, i);
+
 		for (j = 508; j > 0; j-=6)
 		{
 			while(IORD(AUD_FULL_BASE, 0)){}
-			tmp = ( buffer[j + 1] << 8 ) | ( buffer[j] );
-			IOWR(AUDIO_0_BASE, 0 ,tmp);
+
+			IOWR(AUDIO_0_BASE, 0 ,(UINT16)( buffer[j + 1] << 8 ) | ( buffer[j] ));
 			j+=2;
+
 			while(IORD(AUD_FULL_BASE, 0)){}
-			tmp = ( buffer[j + 1] << 8 ) | ( buffer[j] );
-			IOWR(AUDIO_0_BASE, 0 ,tmp);
+
+			IOWR(AUDIO_0_BASE, 0 ,(UINT16)( buffer[j + 1] << 8 ) | ( buffer[j] ));
 		}
 	}
 }
@@ -121,31 +125,31 @@ int delay_play(data_file df, int length, int* cc)
 	BYTE buffer[512] = {0};
 	UINT16 delay_buff[88200] = {0};
 	int delay_index = 0;
-	UINT16 tmp;
 	int toggle = 0;
 	int start_play = 0;
+
 	for (i = 0; i < length * BPB_SecPerClus; i++)
 	{
-		if (play_flag == 0)
+		if (isPlaying == 0){
 			i = length * BPB_SecPerClus;
+		}
 		get_rel_sector(&df, buffer, cc, i);
+
 		for (j = 0; j < 512; j+=2)
 		{
-			if (toggle == 0)
-			{
+			if (toggle == 0){
 				while(IORD(AUD_FULL_BASE, 0)){}
-				tmp = ( buffer[j + 1] << 8 ) | ( buffer[j] );
-				IOWR(AUDIO_0_BASE, 0 ,tmp);
+
+				IOWR(AUDIO_0_BASE, 0 ,(UINT16)( buffer[j + 1] << 8 ) | ( buffer[j] ));
 				toggle = 1;
-			}
-			else if (toggle == 1)
-			{
+			}else{
 				while(IORD(AUD_FULL_BASE, 0)){}
-				tmp = ( buffer[j + 1] << 8 ) | ( buffer[j] );
+
 				IOWR(AUDIO_0_BASE, 0, delay_buff[delay_index]);
-				delay_buff[delay_index] = tmp;
+				delay_buff[delay_index] = (UINT16)( buffer[j + 1] << 8 ) | ( buffer[j] );
 				toggle = 0;
 			}
+
 			delay_index++;
 			if (delay_index > 88200)
 				delay_index = 0;
@@ -155,81 +159,61 @@ int delay_play(data_file df, int length, int* cc)
 	// Play the last second remaining in the right buffer
 	for (k = 0; k < 176400; k++)
 	{
-		if (play_flag == 0)
+		if (isPlaying == 0){
 			k = 176400;
-		if (toggle == 1)
-		{
+		}
+
+		if (toggle == 1){
 			while(IORD(AUD_FULL_BASE, 0)){}
+
 			IOWR(AUDIO_0_BASE, 0, delay_buff[delay_index]);
 			toggle = 0;
-		}
-		else if (toggle == 0)
-		{
+		}else{
 			while(IORD(AUD_FULL_BASE, 0)){}
-			tmp = 0;
-			IOWR(AUDIO_0_BASE, 0, tmp);
+
+			IOWR(AUDIO_0_BASE, 0, 0);
 			toggle = 1;
 		}
+
 		delay_index++;
 		if (delay_index > 88200)
 			delay_index = 0;
 	}
 }
 
-int cold_play()
-{
-
-}
-
 // Displays the current playback mode on the LCD
 static void display_LCD_mode()
 {
-	switch_state = IORD(SWITCH_PIO_BASE, 0);
-
-	if ((switch_state & 0x07) == 0x00)
-		LCD_Display(df.Name, 0);
-	else if ((switch_state & 0x07) == 0x01)
-		LCD_Display(df.Name, 1);
-	else if ((switch_state & 0x07) == 0x02)
-		LCD_Display(df.Name, 2);
-	else if ((switch_state & 0x07) == 0x03)
-		LCD_Display(df.Name, 3);
-	else if ((switch_state & 0x07) == 0x04)
-		LCD_Display(df.Name, 4);
+	switch_state = switch_state & 0x07;
+	LCD_Display(df.Name, switch_state);
 }
 
-static void play_song()
+static void PlayAudio()
 {
 	// Buffer and build the cluster chain
-	int cc[100000];
+	int cChain[100000];
 	int length = 1 + ceil(df.FileSize/(BPB_BytsPerSec*BPB_SecPerClus));
-	LCD_File_Buffering(df.Name);
-	build_cluster_chain(cc, length, &df);
 
-	if ((switch_state & 0x07) == 0x00)
-	{
-		LCD_Display(df.Name, 0);
-		normal_play(df, length, cc);
-	}
-	else if ((switch_state & 0x07) == 0x01)
-	{
-		LCD_Display(df.Name, 1);
-		double_play(df, length, cc);
-	}
-	else if ((switch_state & 0x07) == 0x02)
-	{
-		LCD_Display(df.Name, 2);
-		half_play(df, length, cc);
-	}
-	else if ((switch_state & 0x07) == 0x03)
-	{
-		LCD_Display(df.Name, 3);
-		delay_play(df, length, cc);
-	}
-	else if ((switch_state & 0x07) == 0x04)
-	{
-		LCD_Display(df.Name, 4);
-		reverse_play(df, length, cc);
+	LCD_File_Buffering(df.Name);
+	build_cluster_chain(cChain, length, &df);
+
+	LCD_File_Playing(df.Name);
+	switch(switch_state){
+		case 0:
+			normal_play(df, length, cChain);
+			break;
+		case 1:
+			double_play(df, length, cChain);
+			break;
+		case 2:
+			half_play(df, length, cChain);
+			break;
+		case 3:
+			delay_play(df, length, cChain);
+			break;
+		case 4:
+			reverse_play(df, length, cChain);
+			break;
 	}
 }
 
@@ -244,14 +228,15 @@ static void button_ISR(void* context, alt_u32 id)
 		if (buttons == 0x01)
 		{
 			// Stop the current song
-			play_flag = 0;
+			isPlaying = 0;
+
 			// Enable all the buttons
 			IOWR(BUTTON_PIO_BASE, 2, 0xf);
 		}
 		else if (buttons == 0x02)
 		{
 			// Play
-			play_flag = 1;
+			isPlaying = 1;
 		}
 		else if (buttons == 0x04)
 		{
@@ -263,8 +248,10 @@ static void button_ISR(void* context, alt_u32 id)
 			// Cycle backward
 			if (file_number > 0)
 				file_number = file_number - 2;
+
 			search_for_filetype("WAV", &df, 0, 1);
 		}
+
 		// Update LCD with the new switch state
 		display_LCD_mode();
 	}
@@ -272,42 +259,71 @@ static void button_ISR(void* context, alt_u32 id)
 	{
 		edge_flag = 0;
 	}
+
 	// Clear Interrupt
 	IOWR(BUTTON_PIO_BASE, 3, 0x0);
 }
 
 int main()
 {
-	// Initialize the SD Card and Audio Codec
-	SD_card_init();
-	init_mbr();
-	init_bs();
-	init_audio_codec();
+	Setup();
 
-	// Buttons Setup
+
 	IOWR(BUTTON_PIO_BASE, 2, 0xf);
 	IOWR(BUTTON_PIO_BASE, 3, 0x0);
 	alt_irq_register(BUTTON_PIO_IRQ, (void*)0, button_ISR);
 
-	BYTE buff[512] = {0};
+	BYTE buff[BUF_SIZE] = {0};
 	SD_read_lba(buff,0,1);
-	// Search for the data file
+
+	//Search for the data file, set up initial switches and display on LCD
 	search_for_filetype("WAV", &df, 0, 1);
+	switch_state = IORD(SWITCH_PIO_BASE, 0);
 	display_LCD_mode();
 
 	while(1)
 	{
-		if (play_flag == 1)
+		switch_state = IORD(SWITCH_PIO_BASE, 0);
+		if (isPlaying == 1)
 		{
-			printf("playing\n");
+			display_LCD_mode();
+			printf("Playing audio file: %s\n", df.Name);
+
 			// Disable all buttons except the stop button.
 			IOWR(BUTTON_PIO_BASE, 2, 0x01);
-			play_song();
+			PlayAudio();
+
 			// Enable all the buttons.
 			IOWR(BUTTON_PIO_BASE, 2, 0xf);
-			play_flag = 0;
+			isPlaying = 0;
 		}
 	}
 
 	return 0;
+}
+
+void Setup(){
+	SD_card_init();
+	init_mbr();
+	init_bs();
+	init_audio_codec();
+}
+
+void LCD_File_Playing(char* Text)
+{
+  char parsed_text[12];
+  char Text2[16] = {"Playing"};
+  int i;
+
+  for(i=0;i<11;i++)
+  {
+    parsed_text[i] = Text[i];
+  }
+
+  parsed_text[11] = '\0';
+
+  LCD_Init();
+  LCD_Show_Text(parsed_text);
+  LCD_Line2();
+  LCD_Show_Text(Text2);
 }
