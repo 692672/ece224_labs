@@ -13,12 +13,24 @@
 
 #define BUF_SIZE 512
 
+#define SW_NORMALPLAY 0
+#define SW_DOUBLEPLAY 1
+#define SW_HALFPLAY 2
+#define SW_DELAYPLAY 3
+#define SW_REVERSEPLAY 4
+
+#define BTN_STOP 1
+#define BTN_PLAY 2
+#define BTN_NEXT 4
+#define BTN_PREV 8
+
+
 volatile static alt_u8 switch_state = 0x0;
 volatile static data_file df;
 volatile static int isPlaying = 0;
-volatile static int edge_flag = 0;
+volatile static int currentEdge = 0;
 
-int normal_play(data_file df, int length, int* cc)
+int NormalPlay(data_file df, int length, int* cc)
 {
 	int i, j;
 	BYTE buffer[BUF_SIZE] = {0};
@@ -37,7 +49,7 @@ int normal_play(data_file df, int length, int* cc)
 	}
 }
 
-int double_play(data_file df, int length, int* cc)
+int DoublePlay(data_file df, int length, int* cc)
 {
 	int i, j, skip = 0;
 	BYTE buffer[BUF_SIZE] = {0};
@@ -65,7 +77,7 @@ int double_play(data_file df, int length, int* cc)
 	}
 }
 
-int half_play(data_file df, int length, int* cc)
+int HalfPlay(data_file df, int length, int* cc)
 {
 	int i, j, repeat = 0;
 	BYTE buffer[BUF_SIZE] = {0};
@@ -93,7 +105,7 @@ int half_play(data_file df, int length, int* cc)
 	}
 }
 
-int reverse_play(data_file df, int length, int* cc)
+int ReversePlay(data_file df, int length, int* cc)
 {
 	int i, j;
 	BYTE buffer[BUF_SIZE] = {0};
@@ -119,7 +131,7 @@ int reverse_play(data_file df, int length, int* cc)
 	}
 }
 
-int delay_play(data_file df, int length, int* cc)
+int DelayPlay(data_file df, int length, int* cc)
 {
 	int i, j, k;
 	BYTE buffer[512] = {0};
@@ -190,74 +202,65 @@ static void display_LCD_mode()
 
 static void PlayAudio()
 {
-	// Buffer and build the cluster chain
 	int cChain[100000];
 	int length = 1 + ceil(df.FileSize/(BPB_BytsPerSec*BPB_SecPerClus));
 
+	//Let user know that audio is buffering
 	LCD_File_Buffering(df.Name);
 	build_cluster_chain(cChain, length, &df);
-
 	LCD_File_Playing(df.Name);
+
 	switch(switch_state){
-		case 0:
-			normal_play(df, length, cChain);
+		case SW_NORMALPLAY:
+			NormalPlay(df, length, cChain);
 			break;
-		case 1:
-			double_play(df, length, cChain);
+		case SW_DOUBLEPLAY:
+			DoublePlay(df, length, cChain);
 			break;
-		case 2:
-			half_play(df, length, cChain);
+		case SW_HALFPLAY:
+			HalfPlay(df, length, cChain);
 			break;
-		case 3:
-			delay_play(df, length, cChain);
+		case SW_DELAYPLAY:
+			DelayPlay(df, length, cChain);
 			break;
-		case 4:
-			reverse_play(df, length, cChain);
+		case SW_REVERSEPLAY:
+			ReversePlay(df, length, cChain);
 			break;
 	}
 }
 
 static void button_ISR(void* context, alt_u32 id)
 {
-	if (edge_flag == 0)
+	if (currentEdge == 0)
 	{
-		edge_flag = 1;
-		alt_u8 buttons;
-		buttons = IORD(BUTTON_PIO_BASE, 3) & 0xf;
+		currentEdge = 1;
+		alt_u8 btnPressed = IORD(BUTTON_PIO_BASE, 3) & 0xf;
 
-		if (buttons == 0x01)
-		{
-			// Stop the current song
-			isPlaying = 0;
-
-			// Enable all the buttons
-			IOWR(BUTTON_PIO_BASE, 2, 0xf);
+		switch(btnPressed){
+			case BTN_STOP:
+				isPlaying = 0;
+				IOWR(BUTTON_PIO_BASE, 2, 0xf);
+			break;
+			case BTN_PLAY:
+				isPlaying = 1;
+				IOWR(BUTTON_PIO_BASE, 2, 0xf);
+			break;
+			case BTN_NEXT:
+				search_for_filetype("WAV", &df, 0, 1);
+			break;
+			case BTN_PREV:
+				if(file_number > 0)
+					file_number = file_number - 2;
+				
+				search_for_filetype("WAV", &df, 0, 1);
+			break;
 		}
-		else if (buttons == 0x02)
-		{
-			// Play
-			isPlaying = 1;
-		}
-		else if (buttons == 0x04)
-		{
-			// Cycle forward
-			search_for_filetype("WAV", &df, 0, 1);
-		}
-		else if (buttons == 0x08)
-		{
-			// Cycle backward
-			if (file_number > 0)
-				file_number = file_number - 2;
-
-			search_for_filetype("WAV", &df, 0, 1);
-		}
-
-		// Update LCD with the new switch state
+		
 		display_LCD_mode();
 	}
 	else
 	{
-		edge_flag = 0;
+		currentEdge = 0;
 	}
 
 	// Clear Interrupt
