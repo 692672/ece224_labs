@@ -31,6 +31,7 @@ volatile static data_file df;
 volatile static int isPlaying = 0;
 volatile static int currentEdge = 0;
 
+/* Various modes to play the audio file */
 int NormalPlay(data_file df, int length, int* cc)
 {
 	int i, j;
@@ -195,39 +196,10 @@ int DelayPlay(data_file df, int length, int* cc)
 }
 
 // Displays the current playback mode on the LCD
-static void display_LCD_mode()
+static void DisplayStatusLCD()
 {
 	switch_state = switch_state & 0x07;
 	LCD_Display(df.Name, switch_state);
-}
-
-static void PlayAudio()
-{
-	int cChain[100000];
-	int length = 1 + ceil(df.FileSize/(BPB_BytsPerSec*BPB_SecPerClus));
-
-	//Let user know that audio is buffering
-	LCD_File_Buffering(df.Name);
-	build_cluster_chain(cChain, length, &df);
-	LCD_File_Playing(df.Name);
-
-	switch(switch_state){
-		case SW_NORMALPLAY:
-			NormalPlay(df, length, cChain);
-			break;
-		case SW_DOUBLEPLAY:
-			DoublePlay(df, length, cChain);
-			break;
-		case SW_HALFPLAY:
-			HalfPlay(df, length, cChain);
-			break;
-		case SW_DELAYPLAY:
-			DelayPlay(df, length, cChain);
-			break;
-		case SW_REVERSEPLAY:
-			ReversePlay(df, length, cChain);
-			break;
-	}
 }
 
 static void button_ISR(void* context, alt_u32 id)
@@ -241,23 +213,26 @@ static void button_ISR(void* context, alt_u32 id)
 			case BTN_STOP:
 				isPlaying = 0;
 				IOWR(BUTTON_PIO_BASE, 2, 0xf);
+				DisplayStatusLCD();
 			break;
 			case BTN_PLAY:
 				isPlaying = 1;
 				IOWR(BUTTON_PIO_BASE, 2, 0xf);
 			break;
 			case BTN_NEXT:
-				search_for_filetype("WAV", &df, 0, 1);
+				if(search_for_filetype("WAV", &df, 0, 1) == 0)
+					DisplayStatusLCD();
 			break;
 			case BTN_PREV:
 				if(file_number > 0)
 					file_number = file_number - 2;
 				
-				search_for_filetype("WAV", &df, 0, 1);
+				if(search_for_filetype("WAV", &df, 0, 1) == 0)
+					DisplayStatusLCD();
 			break;
 		}
 
-		display_LCD_mode();
+		
 	}
 	else
 	{
@@ -267,6 +242,8 @@ static void button_ISR(void* context, alt_u32 id)
 	// Clear Interrupt
 	IOWR(BUTTON_PIO_BASE, 3, 0x0);
 }
+void 
+
 
 int main()
 {
@@ -282,19 +259,43 @@ int main()
 	//Search for the data file, set up initial switches and display on LCD
 	search_for_filetype("WAV", &df, 0, 1);
 	switch_state = IORD(SWITCH_PIO_BASE, 0);
-	display_LCD_mode();
+	DisplayStatusLCD();
 
 	while(1)
 	{
 		switch_state = IORD(SWITCH_PIO_BASE, 0);
 		if (isPlaying == 1)
 		{
-			display_LCD_mode();
+			DisplayStatusLCD();
 			printf("Playing audio file: %s\n", df.Name);
 
 			// Disable all buttons except the stop button.
 			IOWR(BUTTON_PIO_BASE, 2, 0x01);
-			PlayAudio();
+			int cChain[100000];
+			int length = 1 + ceil(df.FileSize/(BPB_BytsPerSec*BPB_SecPerClus));
+
+			//Let user know that audio is buffering
+			LCD_File_Buffering(df.Name);
+			build_cluster_chain(cChain, length, &df);
+			LCD_File_Playing(df.Name);
+
+			switch(switch_state){
+				case SW_NORMALPLAY:
+					NormalPlay(df, length, cChain);
+					break;
+				case SW_DOUBLEPLAY:
+					DoublePlay(df, length, cChain);
+					break;
+				case SW_HALFPLAY:
+					HalfPlay(df, length, cChain);
+					break;
+				case SW_DELAYPLAY:
+					DelayPlay(df, length, cChain);
+					break;
+				case SW_REVERSEPLAY:
+					ReversePlay(df, length, cChain);
+					break;
+				}
 
 			// Enable all the buttons.
 			IOWR(BUTTON_PIO_BASE, 2, 0xf);
@@ -314,19 +315,19 @@ void Setup(){
 
 void LCD_File_Playing(char* Text)
 {
-  char parsed_text[12];
-  char Text2[16] = {"Playing"};
-  int i;
+	char parsed_text[12];
+	char Text2[16] = {"Playing"};
+	int i;
 
-  for(i=0;i<11;i++)
-  {
-    parsed_text[i] = Text[i];
-  }
+	for(i=0;i<11;i++)
+	{
+		parsed_text[i] = Text[i];
+	}
 
-  parsed_text[11] = '\0';
+	parsed_text[11] = '\0';
 
-  LCD_Init();
-  LCD_Show_Text(parsed_text);
-  LCD_Line2();
-  LCD_Show_Text(Text2);
+	LCD_Init();
+	LCD_Show_Text(parsed_text);
+	LCD_Line2();
+	LCD_Show_Text(Text2);
 }
