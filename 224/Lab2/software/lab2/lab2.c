@@ -27,6 +27,7 @@
 
 volatile static alt_u8 switch_state = 0x0;
 volatile static data_file df;
+
 volatile static int isPlaying = 0;
 volatile static int currentEdge = 0;
 
@@ -255,7 +256,7 @@ static void button_ISR(void* context, alt_u32 id)
 				search_for_filetype("WAV", &df, 0, 1);
 			break;
 		}
-		
+
 		display_LCD_mode();
 	}
 	else
