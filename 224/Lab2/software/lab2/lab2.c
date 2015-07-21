@@ -129,9 +129,7 @@ int DelayPlay(data_file file_, int l_, int* clusters_)
 	BYTE playBuffer[512] = {0};
 	UINT16 delayBuffer[88200] = {0};
 
-	int idxDelay = 0;
-	int flag = 0;
-	int start_play = 0;
+	int idxDelay, flag = 0;
 
 	for (i = 0; i < l_ * BPB_SecPerClus; i++)
 	{
@@ -198,11 +196,13 @@ static void button_ISR(void* context, alt_u32 id)
 		switch(btnPressed){
 			case BTN_STOP:
 				_playing = 0;
+
 				IOWR(BUTTON_PIO_BASE, 2, 0xf);
 				DisplayStatusLCD();
 			break;
 			case BTN_PLAY:
 				_playing = 1;
+
 				IOWR(BUTTON_PIO_BASE, 2, 0xf);
 			break;
 			case BTN_NEXT:
@@ -255,32 +255,32 @@ int main()
 
 			// Disable all buttons except the stop button.
 			IOWR(BUTTON_PIO_BASE, 2, 0x01);
-			int cChain[100000];
+			int clusterChain[100000];
 			int length = 1 + ceil(_fileinfo.FileSize/(BPB_BytsPerSec*BPB_SecPerClus));
 
 			//Let user know that audio is buffering
 			LCD_File_Buffering(_fileinfo.Name);
-			build_cluster_chain(cChain, length, &_fileinfo);
+			build_cluster_chain(clusterChain, length, &_fileinfo);
 
 			DisplayStatusLCD();
 			switch(switch_state){
 				case SW_NORMALPLAY:
-					NormalPlay(_fileinfo, length, cChain);
+					NormalPlay(_fileinfo, length, clusterChain);
 					break;
 				case SW_DOUBLEPLAY:
-					DoublePlay(_fileinfo, length, cChain);
+					DoublePlay(_fileinfo, length, clusterChain);
 					break;
 				case SW_HALFPLAY:
-					HalfPlay(_fileinfo, length, cChain);
+					HalfPlay(_fileinfo, length, clusterChain);
 					break;
 				case SW_DELAYPLAY:
-					DelayPlay(_fileinfo, length, cChain);
+					DelayPlay(_fileinfo, length, clusterChain);
 					break;
 				case SW_REVERSEPLAY:
-					ReversePlay(_fileinfo, length, cChain);
+					ReversePlay(_fileinfo, length, clusterChain);
 					break;
 				default:
-					NormalPlay(_fileinfo, length, cChain);
+					NormalPlay(_fileinfo, length, clusterChain);
 					break;
 			}
 
