@@ -12,6 +12,7 @@
 #include "basic_io.h"
 
 #define BUF_SIZE 512
+#define SAMPLE_RATE 44100
 
 #define SW_NORMALPLAY 0
 #define SW_DOUBLEPLAY 1
@@ -28,7 +29,6 @@ volatile static int _playing = 0;
 volatile static int _edge = 0;
 
 volatile static data_file _fileinfo;
-
 volatile static alt_u8 _swstate = 0x0;
 
 //Play song in regular speed
@@ -45,7 +45,7 @@ int NormalPlay(data_file file_, int l_, int* clusters_)
 		get_rel_sector(&file_, playBuffer, clusters_, i);
 		for (j = 0; j < BUF_SIZE; j+=2){
 			while(IORD(AUD_FULL_BASE, 0)){}
-			IOWR(AUDIO_0_BASE, 0 ,(UINT16)(playBuffer[j + 1] << 8 ) | ( playBuffer[j]));
+			IOWR(AUDIO_0_BASE, 0 ,(UINT16)(playBuffer[j + 1] << 8) | (playBuffer[j]));
 		}
 	}
 }
@@ -77,6 +77,10 @@ int HalfPlay(data_file file_, int l_, int* clusters_)
 {
 	int i, j, r = 0;
 	BYTE playBuffer[BUF_SIZE] = {0};
+
+	int skip = 0;
+	int comp = 0;
+
 	for (i = 0; i < l_ * BPB_SecPerClus; i++)
 	{
 		if (_playing == 0)
@@ -86,7 +90,7 @@ int HalfPlay(data_file file_, int l_, int* clusters_)
 		for (j = 0; j < BUF_SIZE; j+=2)
 		{
 			while(IORD(AUD_FULL_BASE, 0)){}
-			IOWR(AUDIO_0_BASE, 0 ,(UINT16)( playBuffer[j + 1] << 8 ) | ( playBuffer[j] ));
+			IOWR(AUDIO_0_BASE, 0 ,(UINT16)(playBuffer[j + 1] << 8) | (playBuffer[j]));
 			if (((j + 2) % 4) == 0)
 			{
 				if (r == 0){
@@ -116,11 +120,11 @@ int ReversePlay(data_file file_, int l_, int* clusters_)
 		for (j = 508; j > 0; j-=6)
 		{
 			while(IORD(AUD_FULL_BASE, 0)){}
-			IOWR(AUDIO_0_BASE, 0 ,(UINT16)(playBuffer[j + 1] << 8 ) | ( playBuffer[j]));
+			IOWR(AUDIO_0_BASE, 0 ,(UINT16)(playBuffer[j + 1] << 8) | (playBuffer[j]));
 			j+=2;
 
 			while(IORD(AUD_FULL_BASE, 0)){}
-			IOWR(AUDIO_0_BASE, 0 ,(UINT16)(playBuffer[j + 1] << 8 ) | ( playBuffer[j]));
+			IOWR(AUDIO_0_BASE, 0 ,(UINT16)(playBuffer[j + 1] << 8) | (playBuffer[j]));
 		}
 	}
 }
@@ -129,8 +133,8 @@ int ReversePlay(data_file file_, int l_, int* clusters_)
 int DelayPlay(data_file file_, int l_, int* clusters_)
 {
 	int i, j;
-	BYTE playBuffer[512] = {0};
-	UINT16 delayBuffer[44100] = {0};
+	BYTE playBuffer[BUF_SIZE] = {0};
+	UINT16 delayBuffer[SAMPLE_RATE] = {0};
 
 	int idxDelay, flag = 0;
 
@@ -141,29 +145,29 @@ int DelayPlay(data_file file_, int l_, int* clusters_)
 
 		get_rel_sector(&file_, playBuffer, clusters_, i);
 
-		for (j = 0; j < 512; j+=2)
+		for (j = 0; j < BUF_SIZE; j+=2)
 		{
 			while(IORD(AUD_FULL_BASE, 0)){}
 
 			if (flag == 0){
-				IOWR(AUDIO_0_BASE, 0 ,(UINT16)( playBuffer[j + 1] << 8 ) | ( playBuffer[j] ));
+				IOWR(AUDIO_0_BASE, 0 ,(UINT16)(playBuffer[j + 1] << 8) | (playBuffer[j]));
 				flag = 1;
 			}else{
 				IOWR(AUDIO_0_BASE, 0, delayBuffer[idxDelay]);
-				delayBuffer[idxDelay] = (UINT16)( playBuffer[j + 1] << 8 ) | ( playBuffer[j] );
+				delayBuffer[idxDelay] = (UINT16)(playBuffer[j + 1] << 8) | (playBuffer[j]);
 				flag = 0;
 			}
 
 			idxDelay++;
-			if (idxDelay > 44100)
-				idxDelay = 0;
+			if (idxDelay > SAMPLE_RATE)
+				idxDelay = idxDelay % SAMPLE_RATE;
 		}
 	}
 
-	for (i = idxDelay; i < 44100; i++)
+	for (i = idxDelay; i < SAMPLE_RATE; i++)
 	{
 		if (_playing == 0)
-			i = 44100;
+			i = SAMPLE_RATE;
 
 		while(IORD(AUD_FULL_BASE, 0)){}
 		IOWR(AUDIO_0_BASE, 0, delayBuffer[i]);
@@ -172,7 +176,7 @@ int DelayPlay(data_file file_, int l_, int* clusters_)
 	for (i = 0; i < idxDelay; i++)
 	{
 		if (_playing == 0)
-			i = 44100;
+			i = idxDelay;
 
 		while(IORD(AUD_FULL_BASE, 0)){}
 		IOWR(AUDIO_0_BASE, 0, delayBuffer[i]);
