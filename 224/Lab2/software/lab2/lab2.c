@@ -34,18 +34,17 @@ volatile static int _edge = 0;
 int NormalPlay(data_file df, int length, int* cc)
 {
 	int i, j;
-	BYTE buffer[BUF_SIZE] = {0};
+	BYTE playBuffer[BUF_SIZE] = {0};
 
 	for (i = 0; i < length * BPB_SecPerClus; i++)
 	{
 		if (_playing == 0)
 			i = length * BPB_SecPerClus;
-		
-		get_rel_sector(&df, buffer, cc, i);
 
+		get_rel_sector(&df, playBuffer, cc, i);
 		for (j = 0; j < BUF_SIZE; j+=2){
 			while(IORD(AUD_FULL_BASE, 0)){}
-			IOWR(AUDIO_0_BASE, 0 ,(UINT16)(buffer[j + 1] << 8 ) | ( buffer[j]));
+			IOWR(AUDIO_0_BASE, 0 ,(UINT16)(playBuffer[j + 1] << 8 ) | ( playBuffer[j]));
 		}
 	}
 }
@@ -53,64 +52,83 @@ int NormalPlay(data_file df, int length, int* cc)
 int DoublePlay(data_file df, int length, int* cc)
 {
 	int i, j, skip = 0;
-	BYTE buffer[BUF_SIZE] = {0};
+	BYTE playBuffer[BUF_SIZE] = {0};
 
 	for (i = 0; i < length * BPB_SecPerClus; i++)
 	{
 		if (_playing == 0)
 			i = length * BPB_SecPerClus;
-		
-		get_rel_sector(&df, buffer, cc, i);
 
+		get_rel_sector(&df, playBuffer, cc, i);
 		for (j = 0; j < BUF_SIZE; j+=2)
 		{
-			skip++;
-
 			while(IORD(AUD_FULL_BASE, 0)){}
-			IOWR(AUDIO_0_BASE, 0 ,(UINT16)(buffer[j + 1] << 8) | (buffer[j]));
+			IOWR(AUDIO_0_BASE, 0 ,(UINT16)(playBuffer[j + 1] << 8) | (playBuffer[j]));
 
-			if (skip == 2)
-			{
+			if (j % 4 == 0)
 				j += 4;
-				skip = 0;
-			}
 		}
 	}
 }
 
 int HalfPlay(data_file df, int length, int* cc)
 {
-	int i, j, repeat = 0;
-	BYTE buffer[BUF_SIZE] = {0};
+	int i, j, r = 0;
+	BYTE playBuffer[BUF_SIZE] = {0};
 	for (i = 0; i < length * BPB_SecPerClus; i++)
 	{
 		if (_playing == 0)
 			i = length * BPB_SecPerClus;
-		
-		get_rel_sector(&df, buffer, cc, i);
 
+		get_rel_sector(&df, playBuffer, cc, i);
 		for (j = 0; j < BUF_SIZE; j+=2)
 		{
 			while(IORD(AUD_FULL_BASE, 0)){}
-			IOWR(AUDIO_0_BASE, 0 ,(UINT16)( buffer[j + 1] << 8 ) | ( buffer[j] ));
+			IOWR(AUDIO_0_BASE, 0 ,(UINT16)( playBuffer[j + 1] << 8 ) | ( playBuffer[j] ));
 			if (((j + 2) % 4) == 0)
 			{
-				if (repeat == 0){
+				if (r == 0){
 					j -= 4;
-					repeat = 1;
+					r = 1;
 				}else{
-					repeat = 0;
+					r = 0;
 				}
 			}
 		}
 	}
 }
 
+int ReversePlay(data_file df, int length, int* cc)
+{
+	int i, j;
+	BYTE playBuffer[BUF_SIZE] = {0};
+
+	for (i = length * BPB_SecPerClus; i > 0; i--)
+	{
+		if (_playing == 0)
+			i = -1;
+
+		get_rel_sector(&df, playBuffer, cc, i);
+
+		for (j = 508; j > 0; j-=6)
+		{
+			while(IORD(AUD_FULL_BASE, 0)){}
+			IOWR(AUDIO_0_BASE, 0 ,(UINT16)( playBuffer[j + 1] << 8 ) | ( playBuffer[j] ));
+			j+=2;
+
+			while(IORD(AUD_FULL_BASE, 0)){}
+			IOWR(AUDIO_0_BASE, 0 ,(UINT16)( playBuffer[j + 1] << 8 ) | ( playBuffer[j] ));
+		}
+	}
+}
+
+
 int DelayPlay(data_file df, int length, int* cc)
 {
 	int i, j, k;
-	BYTE buffer[512] = {0};
+	BYTE playBuffer[512] = {0};
 	UINT16 delay_buff[88200] = {0};
+
 	int delay_index = 0;
 	int toggle = 0;
 	int start_play = 0;
@@ -119,21 +137,21 @@ int DelayPlay(data_file df, int length, int* cc)
 	{
 		if (_playing == 0)
 			i = length * BPB_SecPerClus;
-			
-		get_rel_sector(&df, buffer, cc, i);
+
+		get_rel_sector(&df, playBuffer, cc, i);
 
 		for (j = 0; j < 512; j+=2)
 		{
 			if (toggle == 0){
 				while(IORD(AUD_FULL_BASE, 0)){}
 
-				IOWR(AUDIO_0_BASE, 0 ,(UINT16)( buffer[j + 1] << 8 ) | ( buffer[j] ));
+				IOWR(AUDIO_0_BASE, 0 ,(UINT16)( playBuffer[j + 1] << 8 ) | ( playBuffer[j] ));
 				toggle = 1;
 			}else{
 				while(IORD(AUD_FULL_BASE, 0)){}
 
 				IOWR(AUDIO_0_BASE, 0, delay_buff[delay_index]);
-				delay_buff[delay_index] = (UINT16)( buffer[j + 1] << 8 ) | ( buffer[j] );
+				delay_buff[delay_index] = (UINT16)( playBuffer[j + 1] << 8 ) | ( playBuffer[j] );
 				toggle = 0;
 			}
 
@@ -146,9 +164,8 @@ int DelayPlay(data_file df, int length, int* cc)
 	// Play the last second remaining in the right buffer
 	for (k = 0; k < 176400; k++)
 	{
-		if (_playing == 0){
+		if (_playing == 0)
 			k = 176400;
-		}
 
 		if (toggle == 1){
 			while(IORD(AUD_FULL_BASE, 0)){}
@@ -165,32 +182,6 @@ int DelayPlay(data_file df, int length, int* cc)
 		delay_index++;
 		if (delay_index > 88200)
 			delay_index = 0;
-	}
-}
-
-int ReversePlay(data_file df, int length, int* cc)
-{
-	int i, j;
-	BYTE buffer[BUF_SIZE] = {0};
-
-	for (i = length * BPB_SecPerClus; i > 0; i--)
-	{
-		if (_playing == 0){
-			i = -1;
-		}
-		get_rel_sector(&df, buffer, cc, i);
-
-		for (j = 508; j > 0; j-=6)
-		{
-			while(IORD(AUD_FULL_BASE, 0)){}
-
-			IOWR(AUDIO_0_BASE, 0 ,(UINT16)( buffer[j + 1] << 8 ) | ( buffer[j] ));
-			j+=2;
-
-			while(IORD(AUD_FULL_BASE, 0)){}
-
-			IOWR(AUDIO_0_BASE, 0 ,(UINT16)( buffer[j + 1] << 8 ) | ( buffer[j] ));
-		}
 	}
 }
 
