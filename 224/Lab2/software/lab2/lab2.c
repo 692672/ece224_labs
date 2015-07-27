@@ -35,7 +35,7 @@ volatile static data_file _fileinfo;
 volatile static alt_u8 _swstate = 0x0;
 
 UINT16 BytePrep(int i, int j){
-	//left shift first byte and or it with the next one, to prepare to write to audio
+	//left shift j byte and or it with i, to prepare to write to audio
 	return (UINT16)((j << 8) | i);
 }
 
@@ -62,7 +62,7 @@ int NormalPlay(data_file file_, int l_, int* clusters_)
 	}
 }
 
-//Truncates every other bit to make it seem like its playing half speed.
+//Skips every other sample to make it seem like its playing double speed.
 int DoublePlay(data_file file_, int l_, int* clusters_)
 {
 	int i, j = 0;
@@ -88,7 +88,7 @@ int DoublePlay(data_file file_, int l_, int* clusters_)
 	}
 }
 
-//Duplicate every bit to make it seem like its half speed
+//Duplicate every other sample to make it seem like its half speed
 int HalfPlay(data_file file_, int l_, int* clusters_)
 {
 	int i, j, r = 0;
@@ -258,7 +258,6 @@ static void button_ISR(void* context, alt_u32 id)
 		_isredge = 0;
 	}
 
-	// Clear Interrupt
 	IOWR(BUTTON_PIO_BASE, 3, 0x0);
 }
 
