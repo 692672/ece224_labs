@@ -1,0 +1,125 @@
+void init(int, int);
+void background(int);
+void finalize(int, int, int);
+
+#include <io.h>
+#include <stdio.h>
+#include <unistd.h>
+
+#include "system.h"
+#include "alt_types.h"
+#include "sys/alt_irq.h"
+#include "altera_avalon_timer_regs.h"
+
+volatile int pulseCounter;
+volatile int timerCounter;
+
+static void timer_ISR(void* context, alt_u32 id) {
+	timerCounter += IRRoutine();
+
+	//Reset timer interrupt flag
+	IOWR(TIMER_0_BASE, 0, 0x0);
+}
+
+static void pulse_ISR(void* context, alt_u32 id) {
+	pulseCounter += IRRoutine();
+
+	//Reset interrupt flag
+	IOWR(PIO_PULSE_BASE, 3, 0x0);
+}
+
+int IRRoutine(void) {
+	//Prioritize the falling edge, and check pulse based on frequency
+
+	//Check pulse for the frequency specified, and match the PIO_Response
+	if (IORD(PIO_PULSE_BASE, 0) == 1) {
+		IOWR(PIO_RESPONSE_BASE, 0, 1);
+		return 0;
+	} else if (IORD(PIO_PULSE_BASE, 0) == 0) {
+		IOWR(PIO_RESPONSE_BASE, 0, 0);
+
+		//The caller can increment the event counter
+		return 1;
+	}
+
+	return 0;
+}
+
+void processInterrupt(void) {
+	registerIRQ();
+
+	int i, j, k;
+	//Period
+	for (i = 2; i < 15; i += 2) {
+		//Duty Cycle
+		for (j = 2; j < 15; j += 3) {
+			//Granularity
+			for (k = 50; k <= 500; k += 50) {
+				pulseCounter = 0;
+				init(i, j);
+
+				//Make sure EGM only sends 100 pulses
+				while (pulseCounter < 100) {
+					background(k);
+				}
+
+				//Wait 1 second (leave a gap for next iteration)
+				finalize(i, j, k);
+				usleep(1000);
+			}
+		}
+	}
+}
+
+void processPolling(void) {
+	setupTimer();
+
+	int i, j, k;
+	//Period
+	for (i = 0; i < 15; i += 1) {
+		//Duty Cycle
+		for (j = 0; j < 15; j += 1) {
+			//Granularity
+			for (k = 0; k <= 500; k += 25) {
+				timerCounter = 0;
+				init(i, j);
+
+				//Make sure EGM only sends 100 pulses
+				while (timerCounter < 100) {
+					background(k);
+				}
+
+				//Wait 1 second (leave a gap for next iteration)
+				finalize(i, j, k);
+				usleep(1000);
+			}
+		}
+	}
+}
+
+void setupTimer(void) {
+	//Time interval
+	alt_u32 timerPeriod = 0.001 * TIMER_0_FREQ;
+	alt_irq_register(TIMER_0_IRQ, (void*) 0, timer_ISR);
+
+	//Establish period for timer
+	IOWR(TIMER_0_BASE, 2, (alt_u16)timerPeriod);
+	IOWR(TIMER_0_BASE, 3, (alt_u16)(timerPeriod >> 16));
+
+	//Reset Timer interrupt bit, and initialise timer's controller
+	IOWR(TIMER_0_BASE, 0, 0x0);
+	IOWR(TIMER_0_BASE, 1, 0x7);
+}
+
+void registerIRQ(void) {
+	alt_irq_register(PIO_PULSE_IRQ, (void*) 0, pulse_ISR);
+
+	//Result the pulse interrupt bit, and initialise the bit
+	IOWR(PIO_PULSE_BASE, 3, 0x0);
+	IOWR(PIO_PULSE_BASE, 2, 0x1);
+}
+
+int main(void) {
+	processInterrupt();
+	//processPolling();
+}

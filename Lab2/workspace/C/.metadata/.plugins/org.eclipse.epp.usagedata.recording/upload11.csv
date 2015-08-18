@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Connected system timestamp not found on target at expected base address.",1431437289755
+error,log,,,"Connected system ID hash not found on target at expected base address.",1431437289864
+error,log,,,"Connected system timestamp not found on target at expected base address.",1431437289874
+error,log,,,"Connected system ID hash not found on target at expected base address.",1431437289972
+error,log,,,"Connected system timestamp not found on target at expected base address.",1431437289975
+error,log,,,"Connected system ID hash not found on target at expected base address.",1431437290094
+error,log,,,"Connected system timestamp not found on target at expected base address.",1431437290104
+error,log,,,"Connected system ID hash not found on target at expected base address.",1431437290104
+error,log,,,"Connected system timestamp not found on target at expected base address.",1431437290105
+started,bundle,org.eclipse.cdt.launch,6.0.0.200909110608,"org.eclipse.cdt.launch",1431437290454
+error,log,,,"sun.awt.X11.XlibWrapper",1431437290882
+error,log,,,"SOPC design not set.",1431437291931
+error,log,,,"CPU module not set.",1431437291932
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1431437291933
+error,log,,,"CPU architecture type not set. ",1431437291939
+error,log,,,"CPU master group not set.",1431437291954
+error,log,,,"Connected system ID hash not found on target at expected base address.",1431437291974
+error,log,,,"Connected system timestamp not found on target at expected base address.",1431437291974
+error,log,,,"SOPC design not set.",1431437291984
+error,log,,,"CPU module not set.",1431437291984
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1431437291994
+error,log,,,"CPU architecture type not set. ",1431437291995
+error,log,,,"CPU master group not set.",1431437291995
+error,log,,,"Expected base address of system ID component is undefined.",1431437292003
+error,log,,,"SOPC design not set.",1431437292008

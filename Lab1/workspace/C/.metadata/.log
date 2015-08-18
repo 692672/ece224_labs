@@ -1,0 +1,2341 @@
+!SESSION 2015-05-12 09:19:30.901 -----------------------------------------------
+eclipse.buildId=M20090917-0800
+java.version=1.6.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_CA
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-05-12 09:20:57.397
+!MESSAGE Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-05-12 09:20:58.544
+!MESSAGE Done Initializing System Console Model
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-05-12 09:22:39.935
+!MESSAGE Indexed 'BoardTest_bsp' (83 sources, 61 headers) in 2.37 sec: 1,070 declarations; 2,893 references; 121 unresolved inclusions; 5 syntax errors; 212 unresolved names (5.08%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-05-12 09:22:45.899
+!MESSAGE Indexed 'BoardTest' (1 sources, 12 headers) in 0.08 sec: 22 declarations; 73 references; 17 unresolved inclusions; 0 syntax errors; 2 unresolved names (2.06%)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.584
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.594
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.594
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.604
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.604
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.624
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.624
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.625
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.626
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.648
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.648
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.658
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.658
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.668
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.678
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.688
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.688
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.698
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.698
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.699
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.700
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.705
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.711
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.731
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.731
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.741
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.751
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.751
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.761
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.761
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.771
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.772
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.772
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.777
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.798
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.798
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.808
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.818
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.818
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.828
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.838
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.838
+!MESSAGE Expected base address of system ID component is undefined.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.839
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.839
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.843
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.864
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.864
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.874
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.884
+!MESSAGE Expected base address of system ID component is undefined.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.884
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.894
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.894
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.904
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.904
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.905
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.906
+!MESSAGE Expected base address of system ID component is undefined.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.921
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.931
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.941
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.941
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.951
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.951
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.961
+!MESSAGE Expected base address of system ID component is undefined.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.971
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.971
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.981
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.982
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.982
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.985
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:05.991
+!MESSAGE Expected base address of system ID component is undefined.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:06.014
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:06.014
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:06.024
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:06.024
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:06.034
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:06.034
+!MESSAGE Expected base address of system ID component is undefined.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:07.342
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:07.373
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:07.373
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:07.397
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:07.397
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:07.407
+!MESSAGE Expected base address of system ID component is undefined.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:07.417
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:07.427
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:07.437
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:07.447
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:07.447
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:07.448
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:07.455
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:07.610
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:07.662
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:07.668
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:07.676
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:07.697
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:07.707
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:07.717
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:07.727
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:28:07.727
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:07.728
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:07.735
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:07.743
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:07.764
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:28:07.774
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:07.784
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:07.784
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:07.794
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:28:07.795
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:07.800
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:07.809
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:07.831
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:07.841
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:07.851
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:28:07.851
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:28:07.877
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:28:08.004
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:28:08.114
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:28:08.221
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:28:08.324
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:28:08.431
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:28:08.531
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:28:08.637
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:28:08.741
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:08.751
+!MESSAGE Target is broken and needs to be reset
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:08.824
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:08.834
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:08.844
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:08.845
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:08.847
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:08.855
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:08.881
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:08.881
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:08.891
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:08.977
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:08.987
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:09.091
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:09.101
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:09.195
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:09.196
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:09.317
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:09.327
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:09.431
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:09.431
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:09.534
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:09.544
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:09.647
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:09.647
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:09.754
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:09.755
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:09.864
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:09.874
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:09.972
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:09.973
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:10.094
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:10.104
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:10.104
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:10.105
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:10.881
+!MESSAGE sun.awt.X11.XlibWrapper
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:11.931
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:11.932
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:11.932
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:11.937
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:11.943
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:11.964
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:11.974
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:11.984
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:11.984
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:11.994
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:11.995
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:11.995
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:12.000
+!MESSAGE Expected base address of system ID component is undefined.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:12.007
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:12.021
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:12.031
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:12.041
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:12.041
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:12.051
+!MESSAGE Expected base address of system ID component is undefined.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:12.061
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:12.061
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:12.071
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:12.072
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:12.072
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:12.097
+!MESSAGE Expected base address of system ID component is undefined.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:12.097
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:12.107
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:12.107
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:12.117
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:12.117
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:12.127
+!MESSAGE Expected base address of system ID component is undefined.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:15.247
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:15.257
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:15.257
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:15.267
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:15.267
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:15.277
+!MESSAGE Expected base address of system ID component is undefined.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:15.287
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:15.287
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:15.288
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:15.289
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:15.304
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:15.314
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:15.324
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:15.324
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:15.334
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:15.344
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:15.344
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:15.354
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:28:15.355
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:15.355
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:15.359
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:15.380
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:15.380
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:15.390
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:15.390
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:15.400
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:15.410
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:15.410
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:28:15.420
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:15.420
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:15.430
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:28:15.431
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:15.431
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:15.434
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:15.440
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:15.454
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:28:15.464
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:28:15.574
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:28:15.617
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:28:16.230
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:28:16.270
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:28:16.275
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:28:16.317
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:28:16.337
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:28:16.364
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:28:16.384
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:28:16.405
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:28:16.430
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:16.450
+!MESSAGE Target is broken and needs to be reset
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:28:16.470
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:16.524
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:16.534
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:16.534
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:16.544
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:16.544
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:16.545
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:16.546
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:16.559
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:16.580
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:16.610
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:28:16.620
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:30:54.425
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:30:54.455
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:30:56.644
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:30:56.645
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:49.766
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:49.771
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.177
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:55.197
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.207
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.217
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.227
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.228
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.228
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.230
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.240
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.249
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.256
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.277
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.277
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.287
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.297
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.297
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.298
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.307
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.327
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:55.327
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.347
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.357
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.367
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:55.368
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.371
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:55.394
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.404
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.414
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.424
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.434
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.434
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:55.435
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.461
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.471
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:55.471
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.481
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.491
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.491
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:55.501
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.502
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:55.509
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.533
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:55.533
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.543
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.553
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:55.563
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:55.563
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.574
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.577
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.583
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:55.589
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.610
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.620
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:55.630
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:55.640
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.641
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.645
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.652
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.658
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.665
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:55.672
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.694
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:55.694
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.714
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.715
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.719
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:55.734
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:55.744
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:55.754
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:55.764
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:55.785
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:55.810
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:55.840
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:55.850
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:55.887
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:55.907
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:55.928
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:55.935
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:55.974
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:56.417
+!MESSAGE Target is broken and needs to be reset
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:56.473
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:56.483
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:56.483
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:56.484
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:56.485
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:56.500
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:56.510
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:56.520
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:56.530
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:56.552
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:56.567
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:58.640
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:58.650
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:58.651
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:58.667
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:58.687
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:58.687
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:58.697
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:58.707
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:58.707
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:58.717
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:58.717
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:58.727
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:58.728
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:58.732
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:58.738
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:58.760
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:58.760
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:58.770
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:58.780
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:58.790
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:58.790
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:58.791
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:58.795
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:58.802
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:58.809
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:58.833
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:58.833
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:58.843
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:58.853
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:58.863
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:58.863
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:58.864
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:58.868
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:58.893
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:58.903
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:58.913
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:58.923
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:58.923
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:58.933
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:58.934
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:58.937
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:58.961
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:58.971
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:58.971
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:58.981
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:58.991
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:59.001
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:59.002
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:59.017
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:59.027
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:59.037
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:59.047
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:59.057
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:59.067
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:59.077
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:59.077
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:59.082
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:59.088
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:59.103
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:59.113
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:59.123
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:59.133
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:59.133
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:59.143
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:59.147
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:59.153
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:59.160
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:59.166
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:59.171
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:59.193
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:59.214
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:59.253
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:59.273
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:59.284
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:59.310
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:59.340
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:59.351
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:32:59.387
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:59.780
+!MESSAGE Target is broken and needs to be reset
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:59.847
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:59.853
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:59.867
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:59.877
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:59.887
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:59.887
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:59.897
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:59.907
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:59.917
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:59.943
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:32:59.953
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:24.896
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:33:24.906
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:24.910
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:24.917
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:24.924
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:24.945
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:24.955
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:24.955
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:24.965
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:24.965
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:24.975
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:24.976
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:24.976
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:24.980
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:24.987
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:25.010
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:25.010
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:25.020
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:25.020
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:33:25.030
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:25.050
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:25.051
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:25.076
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:25.076
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:25.086
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:25.096
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:25.096
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:33:25.106
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:33:25.116
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:25.118
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:33:25.133
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:33:25.143
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:25.153
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:25.163
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:25.163
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:33:25.173
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:25.183
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:25.184
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:33:25.189
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:25.210
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:25.220
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:33:25.220
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:25.240
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:25.250
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:25.250
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:33:25.260
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:33:25.261
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:25.265
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:25.271
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:25.293
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:33:25.293
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:25.313
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:25.313
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:33:25.324
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:33:25.324
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:25.329
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:25.335
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:25.341
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:33:25.346
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:25.354
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:25.376
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:33:25.386
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:25.396
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:33:25.396
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:25.398
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:25.403
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:25.426
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:33:25.426
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:25.446
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:33:25.456
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:33:25.466
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:33:25.466
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:33:25.505
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:33:25.525
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:33:25.536
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:33:25.570
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:33:25.590
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:33:25.611
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:33:25.618
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:33:25.656
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:33:25.676
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:33:25.689
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:26.091
+!MESSAGE Target is broken and needs to be reset
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:26.156
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:26.156
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:26.166
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:26.167
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:26.167
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:26.171
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:26.193
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:26.203
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:26.213
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:26.234
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:26.239
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.606
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.616
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.616
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:33:28.617
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.621
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.644
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:33:28.644
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.654
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.664
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.674
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.674
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.684
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.685
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.685
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.688
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.710
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.720
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.730
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.740
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.740
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.750
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.751
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.754
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.776
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.776
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.786
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.796
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.806
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.816
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.816
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.826
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.827
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.827
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.832
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.837
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.860
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.870
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.880
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.890
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.890
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.900
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.901
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.901
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.906
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.921
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.931
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.941
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.941
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.951
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.961
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.962
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.964
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.971
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.993
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:28.993
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.003
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.003
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.013
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.023
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.033
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.033
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.034
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.039
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.060
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.070
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.080
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.080
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.090
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.100
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.100
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.110
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.110
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.113
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.119
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.143
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.143
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.153
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.163
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.173
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.174
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.210
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.210
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.230
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.240
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.251
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.255
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.286
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.286
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.316
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.316
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.318
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.333
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.363
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.363
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.383
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.383
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.410
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:33:29.420
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:23.374
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:23.384
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:23.490
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:23.491
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:23.601
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:23.611
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:23.704
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:23.725
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:23.831
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:23.841
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:23.941
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:23.951
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:24.049
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:24.051
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:24.171
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:24.181
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:24.267
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:24.291
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:24.398
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:24.399
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:24.508
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:24.518
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:24.611
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:24.617
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:24.738
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:24.748
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:24.851
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:24.861
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:24.956
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:24.957
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.078
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.088
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.191
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.191
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.295
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.305
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.408
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.408
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.506
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.507
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.628
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.638
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.638
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.648
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.711
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.721
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.731
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.731
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.732
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.732
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.737
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.758
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.758
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.768
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.768
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.778
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.788
+!MESSAGE Expected base address of system ID component is undefined.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.788
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.798
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.798
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.799
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.800
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.815
+!MESSAGE Expected base address of system ID component is undefined.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.825
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.835
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.835
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.845
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.855
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.855
+!MESSAGE Expected base address of system ID component is undefined.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.865
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.865
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.866
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.868
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.891
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:25.891
+!MESSAGE Expected base address of system ID component is undefined.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:27.331
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:27.342
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:27.342
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:27.350
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:27.365
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:27.375
+!MESSAGE Expected base address of system ID component is undefined.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:27.385
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:27.385
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:27.395
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:27.395
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:27.405
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:27.406
+!MESSAGE Connected system ID hash not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:27.406
+!MESSAGE Connected system timestamp not found on target at expected base address.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:27.409
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:27.415
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:27.421
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:27.441
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:27.441
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:27.451
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:35:27.461
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:27.461
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:27.471
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:27.471
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:27.482
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:27.482
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:27.486
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:27.508
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:27.508
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:27.518
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:35:27.528
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:35:27.538
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:27.548
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:27.548
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:27.549
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:27.549
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:27.555
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:35:27.575
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:27.616
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:27.616
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:27.620
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:27.641
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:35:27.651
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:37:13.116
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:37:13.124
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:37:13.131
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:37:13.156
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:37:13.166
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:37:13.166
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:37:13.176
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:37:13.216
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:37:13.226
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:37:13.226
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:37:13.236
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:37:13.236
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-05-12 09:37:14.559
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/software/altera/10.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x0 --id=0x0 --timestamp=1430871753]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-05-12 09:37:17.944
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/software/altera/10.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x0 --id=0x0 --timestamp=1430871753 /cygdrive/n/ECE224/software/BoardTest/BoardTest.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-05-12 09:41:24.812
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:41:26.156
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:41:26.176
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:41:26.181
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:41:26.188
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:41:26.195
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:41:26.209
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 2 0 2015-05-12 09:41:26.219
+!MESSAGE Obtaining system ID information for selected processor
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:41:26.240
+!MESSAGE SOPC design not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:41:26.241
+!MESSAGE CPU module not set.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:41:26.247
+!MESSAGE The SOPC design does not contain a CPU of a supported architecture.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:41:26.268
+!MESSAGE CPU architecture type not set. 
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-05-12 09:41:26.268
+!MESSAGE CPU master group not set.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-05-12 09:41:27.483
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/software/altera/10.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x0 --id=0x0 --timestamp=1430871753]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-05-12 09:41:30.860
+!MESSAGE Executing: [C:\Windows\system32\cmd.exe, /C, C:/software/altera/10.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x0 --id=0x0 --timestamp=1430871753 /cygdrive/n/ECE224/software/BoardTest/BoardTest.elf]

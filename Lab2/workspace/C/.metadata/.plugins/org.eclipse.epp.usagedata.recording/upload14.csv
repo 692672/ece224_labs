@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,com.altera.debug.cdi.gdb.plugin,10.1.0.153,"com.altera.debug.cdi.gdb.plugin",1431437295484
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1431437295627
+error,log,,,"Target is broken and needs to be reset",1431437296460
+error,log,,,"SOPC design not set.",1431437296524
+error,log,,,"CPU module not set.",1431437296534
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1431437296534
+error,log,,,"CPU architecture type not set. ",1431437296544
+error,log,,,"CPU master group not set.",1431437296545
+error,log,,,"Connected system ID hash not found on target at expected base address.",1431437296545
+error,log,,,"Connected system timestamp not found on target at expected base address.",1431437296547
+error,log,,,"Connected system ID hash not found on target at expected base address.",1431437296570
+error,log,,,"Connected system timestamp not found on target at expected base address.",1431437296580
+error,log,,,"Connected system ID hash not found on target at expected base address.",1431437296610
+error,log,,,"Connected system timestamp not found on target at expected base address.",1431437296620
+error,log,,,"Connected system ID hash not found on target at expected base address.",1431437454455
+error,log,,,"Connected system timestamp not found on target at expected base address.",1431437454465
+error,log,,,"Connected system ID hash not found on target at expected base address.",1431437456644
+error,log,,,"Connected system timestamp not found on target at expected base address.",1431437456645
+error,log,,,"Connected system ID hash not found on target at expected base address.",1431437569767
+error,log,,,"Connected system timestamp not found on target at expected base address.",1431437569773
+error,log,,,"SOPC design not set.",1431437575187
+error,log,,,"CPU module not set.",1431437575207
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1431437575217
+error,log,,,"SOPC design not set.",1431437575227
+error,log,,,"CPU module not set.",1431437575228

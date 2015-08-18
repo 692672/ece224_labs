@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433860080515
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433860081195
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433860085675
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433860134656
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433860134656
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433860141126
+executed,command,,,"com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchShortcut.run",1433860141126
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433860143576
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433860161099
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433860162931
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433860164381
+closed,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433860164481
+error,log,,,"The proxied handler for 'com.altera.sbtgui.project.commands.SystemConsoleHandler' could not be loaded",1433860165107
+error,log,,,"The proxied handler for 'com.altera.sbtgui.project.commands.SystemConsoleHandler' could not be loaded",1433860165127
+stopped,bundle,org.eclipse.cdt.debug.mi.ui,6.0.0.200909110608,"org.eclipse.cdt.debug.mi.ui",1433860165147
+stopped,bundle,com.altera.debug.cdi.gdb.plugin,10.1.0.153,"com.altera.debug.cdi.gdb.plugin",1433860165147
+stopped,bundle,com.altera.sbtgui.launch,10.1.1.153,"com.altera.sbtgui.launch",1433860165147
+stopped,bundle,org.eclipse.cdt.debug.mi.core,6.0.0.200909110608,"org.eclipse.cdt.debug.mi.core",1433860165147
+stopped,bundle,org.eclipse.cdt.dsf.gdb.ui,2.0.0.200909110608,"org.eclipse.cdt.dsf.gdb.ui",1433860165157
+stopped,bundle,org.eclipse.cdt.dsf.ui,2.0.1.200909110608,"org.eclipse.cdt.dsf.ui",1433860165157
+stopped,bundle,com.altera.sbtgui.ui,10.1.0.153,"com.altera.sbtgui.ui",1433860165157
+stopped,bundle,com.altera.sbtgui.project,10.1.0.153,"com.altera.sbtgui.project",1433860165157
+stopped,bundle,org.eclipse.cdt.launch,6.0.0.200909110608,"org.eclipse.cdt.launch",1433860165157
+stopped,bundle,org.eclipse.cdt.debug.ui,6.0.0.200909110608,"org.eclipse.cdt.debug.ui",1433860165157
+stopped,bundle,org.eclipse.cdt.dsf.gdb,2.0.0.200909110608,"org.eclipse.cdt.dsf.gdb",1433860165157

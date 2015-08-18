@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433863554310
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433863554600
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433863557120
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433863631679
+executed,command,,,"com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchShortcut.run",1433863633049
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433863633329
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433863640399
+opened,view,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.views.ProgressView",1433863645749
+activated,view,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.views.ProgressView",1433863645769
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1433863649399
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433863650829
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433863652319
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433863652389
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433863654619
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433863657299
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433863731200
+executed,command,,,"com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchShortcut.run",1433863732720
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433863733550
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433863735920
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433863793513
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1433863794483
+error,log,,,"SOPC design not set.",1433863794523
+error,log,,,"CPU module not set.",1433863794533
+error,log,,,"The SOPC design does not contain a CPU of a supported architecture.",1433863794543
+error,log,,,"CPU architecture type not set. ",1433863794553

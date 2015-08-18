@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable filter="Default">
+  <columns>
+   <opcodeName visible="0" />
+   <connections preferredWidth="47" />
+   <irq preferredWidth="34" />
+   <export visible="0" />
+  </columns>
+ </systemtable>
+ <clocktable>
+  <columns>
+   <clockname preferredWidth="163" />
+   <clocksource preferredWidth="163" />
+   <frequency preferredWidth="144" />
+  </columns>
+ </clocktable>
+ <window width="960" height="1052" x="960" y="0" />
+ <library
+   expandedCategories="Project,Library/Peripherals/Microcontroller Peripherals,Project/UW ECE,Library/University Program,Library/Peripherals,Library/Peripherals/Debug and Performance,Library/Peripherals/Multiprocessor Coordination,Library" />
+</preferences>
